@@ -1,0 +1,131 @@
+html,body{
+    height: 100%;
+}
+.page{
+  width:100%;
+  height:100%;
+  position:absolute;
+  text-align:center;
+}
+.pagebg {
+    background-image: url(../images/qjbj.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.page-current{
+  z-index:1;
+}
+.hide{ display:none;}
+
+.page{
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.topnav{
+    background-color:#131a1c;
+    height:40px;
+    position: absolute;
+    top:0;
+    z-index: 99;
+    width: 100%;
+    display: table;
+}
+.topnav a{
+    display: table-cell;
+    width: 1%;
+}
+.topnav a.home{
+    background: url("../images/top-home-icon.png") no-repeat;
+    background-size:103px 40px;
+    background-position:center;
+}
+.topnav a.back{
+    background: url("../images/top-back-icon.png") no-repeat;
+    background-size:103px 40px;
+    background-position:center;
+}
+.topnav a.tel{
+    background: url("../images/top-tel-icon.png") no-repeat;
+    background-size:103px 40px;
+    background-position:center;
+}
+.topnav a.post{
+    background: url("../images/top-post-icon.png") no-repeat;
+    background-size:103px 40px;
+    background-position:center;
+}
+.leftsize{
+    position: relative;
+}
+.leftsize:after{
+    content:'';
+    display: inline-block;
+    width: 2px;
+    height:40px;
+    position: absolute;
+    right: -1px;
+    top:0px;
+    background: url("../images/topicon.png");
+    background-size:411px 40px;
+    background-position:-103px 0px;
+}
+
+
+.btn-group{
+    position: absolute;
+    top:60%;
+    text-align: center;
+    width:100%;
+}
+.btn-group a{
+    display: inline-block;
+    color:#333333;
+}
+.btn-group a img{
+    width: 160px;
+    height: auto;
+}
+
+.botnav{
+    width: 100%;
+    position: fixed;
+    bottom: 30px;
+    z-index: 99
+}
+.navlist li{
+    width: 20%;
+    float: left;
+    margin-left:10%;
+    margin-top:5%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 0px;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    box-shadow: 2px 2px 4px #666666;
+}
+.navlist li a{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.navlist li img{
+    width: 50%;
+}
+#page-content{
+    height: 100%;
+}
+.content{
+    background-color: #FFFFFF;
+    min-height: 100%;
+    margin-top: 40px;
+}
+.arrow-up{
+    height:auto;
+    width:25px;
+    position:absolute;
+    left:50%;
+    top:92%;
+    margin-left:-12px;
+    z-index:99;
+}
